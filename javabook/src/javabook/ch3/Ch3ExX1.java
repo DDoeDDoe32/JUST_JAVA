@@ -14,10 +14,10 @@ public class Ch3ExX1 {
 		String sel = scan.next();
 		
 		if(sel.equals("1")) {
-			System.out.println("환영합니다! 구매자로 로그인하셨습니다.");
+			System.out.println("환영합니다! 구매자로 로그인하셨습니다. ");
 		}
 		else {
-			System.out.println("환영합니다! 판매자로 로그인하셨습니다.");
+			System.out.println("환영합니다! 판매자로 로그인하셨습니다. ");
 		}
 	}
 
