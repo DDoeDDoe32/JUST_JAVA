@@ -17,6 +17,7 @@ public class Ch3Ex10 {
 			
 		case "YOUNG" :
 			msg = "청소년 고객 혜택 적용";
+			break;
 			
 		default :
 			msg = "등급없음";
