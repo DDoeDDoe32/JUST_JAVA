@@ -10,8 +10,8 @@ public abstract class Product {
 	
 	// 상품 이름과 가격을 출력하는 기본정보 출력메서드
 	public void printDetail() {
-		System.out.println("상품명: " + pname + " , ");
-		System.out.println("가격: " + price + " , ");
+		System.out.print("상품명: " + pname + " , ");
+		System.out.print("가격: " + price + " , ");
 		printExtra();
 	}
 	
