@@ -1,0 +1,25 @@
+package javabook.ch3;
+
+class Fruit {
+	String pnum;
+	String name;
+	int price;
+}
+public class test {
+	public static void main(String[] args) {
+		Fruit[] a = new Fruit();
+		
+		a.pnum = "00001";
+		a.name = "りんご";
+		a.price = 100;
+		
+		b.pnum = "00010";
+		b.name = "メロン";
+		b.price = 1000;
+		
+		c.pnum = "00100";
+		c.name = "なし";
+		c.price = 500;
+	}
+
+}

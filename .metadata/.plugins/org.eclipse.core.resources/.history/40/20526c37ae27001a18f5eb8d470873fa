@@ -1,0 +1,23 @@
+package javabook.ch3;
+
+import java.math.BigInteger;
+
+public class test2 {
+  public static void main(String[] args) {
+
+    for (int i = 0; i <= 10; i++)
+      System.out.format("%d! = %d%n", i, factorial(i));
+  }
+
+  public static int factorial(int n) {
+	// BigInteger fac = BigInteger.ONE;
+	int fac = 0;
+
+    for (int i = 1; i <= n; i++)
+      fac *= i;
+
+    return fac;
+  }
+
+
+}

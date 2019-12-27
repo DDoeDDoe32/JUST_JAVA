@@ -1,0 +1,15 @@
+package javabook.ch3;
+
+class Fruit {
+	String pnum;
+	String name;
+	int price;
+}
+
+public class test {
+
+	public static void main(String[] args) {
+		
+	}
+
+}
